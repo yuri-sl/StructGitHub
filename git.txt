@@ -1,0 +1,40 @@
+#Add arquivos ao rep.
+git add.
+#Fazer commit
+git commit -m "Mensagem"
+#subindo os arquivos utilizando a url gerada
+git remote add origin "url gerada pelo github"
+
+#autorizando o upload com o login e senha
+git push -u origin master
+
+#git checkout faz a troca entre branches ou restaura arquivos da árvore de trabalho(?)
+git checkout id-do-commit-especifico
+
+#como que vou saber o id do commit especifico?
+git log
+
+#como fazer o checkout?
+git checkout NOME-DA-BRANCH
+
+#Criar uma nova branch
+git checkout -b Nome-da-novaBranch
+
+#redefinir o checkout para uma nova branch
+git checkout -B NOME-DA-BRANCH PONTO-INICIAL
+
+#desfazer alterações no arquivo
+git checkout --NOMEARQUIVO
+
+Atualizar o repositorio:
+git pull ( git fetch [Buscar atualizações] + git merge)
+
+PULL REQUEST (PR) e Issue
+Pull Request permite que vocÊ proponha alterações nos projetos fornecendo feedbak.
+gerente faz a merge para a branch do proj. Principal.
+
+parte delicada, pois assim o código irá ser incluido na branch principal. Depois disso, todo mundo deve dar
+git pull na branh principal
+
+
+
